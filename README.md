@@ -20,7 +20,7 @@ python -m pip install pyaudio
 
 To install dependencies simply run
 ```
-pip install -r requirements.txt 
+pip install -r requirements.txt
 ```
 in an environment of your choosing.
 
