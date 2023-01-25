@@ -4,9 +4,23 @@
 
 This is a demo of real time speech to text with OpenAI's Whisper model. It works by constantly recording audio in a thread and concatenating the raw bytes over multiple recordings.
 
+The PyAudio dependency requires portaudio to be installed which can be installed with the following commands:
+
+```
+# on Ubuntu or Debian
+sudo apt install build-essential portaudio19-dev python3.10-dev
+
+# on MacOS using Homebrew (https://brew.sh/)
+brew install portaudio
+brew link --overwrite portaudio
+
+# on Windows usin Python pip
+python -m pip install pyaudio
+```
+
 To install dependencies simply run
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt 
 ```
 in an environment of your choosing.
 
